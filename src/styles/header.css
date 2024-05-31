@@ -1,0 +1,127 @@
+/* ----- Header Hero ----- */
+
+header .hero {
+  display: flex;
+  min-height: 500px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 7px 10px 0px var(--primary-red);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../public/images/heros/hero-image_2.jpg");
+}
+
+header .hero .heroContainer {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+header .hero .heroContainer .heroTitle {
+  color: var(--white);
+  font-weight: 550;
+  font-size: 3rem;
+}
+
+header .hero .heroContainer .heroDescription {
+  color: var(--white);
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* ----- Header ----- */
+
+header {
+  min-height: 56px;
+  transition: min-height 0.3s;
+  background-color: transparent;
+}
+
+header .navbar {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  z-index: 999;
+  transition: background-color 0.5s ease-in-out;
+}
+
+header .headerInner {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .headerInner .headerTitle {
+  font-size: 1.6rem;
+  color: var(--white);
+}
+
+/* ----- Hamburger Button ----- */
+
+header .headerInner .navigationResponsive .navigationDrawer {
+  font-size: 31px;
+  margin-top: 20px;
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+
+/* ----- Navbar List -----*/
+
+header .navbar .navbarContainer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+header .navbarContainer .navbarList {
+  display: flex;
+  width: 90%;
+  padding: 0px;
+  margin: 15px;
+  text-align: center;
+  justify-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .navbarContainer .navbarList .navbarItem {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40%;
+  line-height: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header .navbarContainer .navbarList .navbarItem a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--white);
+  min-width: 44px;
+  min-height: 44px;
+  padding: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+header .navbarContainer .navbarList .navbarItem a:hover {
+  font-size: large;
+  color: var(--primary-red);
+  border-radius: 10px;
+  background-color: var(--primary-beige);
+}

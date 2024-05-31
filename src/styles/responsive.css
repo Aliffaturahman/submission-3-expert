@@ -1,0 +1,161 @@
+/* ----- Extra small devices ----- */
+@media only screen and (max-width: 320px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logoFont,
+  .hero__title {
+    font-size: 1.5em;
+  }
+
+  .navItem a,
+  .hero__subtitle,
+  .btn {
+    font-size: 1em;
+  }
+
+  #searchInput {
+    width: 150px;
+  }
+
+  .mainContentContainer {
+    margin: 40px 10px;
+  }
+}
+
+/* ----- Smaller devices ----- */
+@media screen and (max-width: 768px) {
+  .headerTitle {
+      display: flex;
+      padding-left: 10px;
+      justify-content: flex-start;
+      align-items: center;
+  }
+
+  .navigationDrawer {
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+    color: var(--white);
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .navigationDrawer:hover {
+    box-shadow: 1px 1px 0px 0px var(--white);
+  }
+
+  .navbarContainer {
+      background-color: var(--second-red);
+      width: 100%;
+      top: 79px;
+      position: absolute;
+      transform: translate(-120%, 0);
+      transition: transform 0.4s ease;
+  }
+
+  .open {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+  }
+
+  .navbarItem {
+      display: list-item;
+      width: 100%;
+  }
+
+  .navigationResponsive {
+      display: flex;
+      list-style-type: none;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 10px;
+  }
+
+  .headerInner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0px 30px;
+      margin-top: 0;
+  }
+
+  form {
+    margin: 20px 20px 50px;
+  }
+
+  .mainContentContainer {
+    margin: 40px 30px;
+  }
+}
+
+/* ----- Small devices ----- */
+@media only screen and (min-width: 600px) {
+  .mainContentTitle {
+    margin-bottom: 1em;
+  }
+
+  #exploreRestaurant {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.545em;
+    grid-row-gap: 1.545em;
+  }
+
+  #searchInput {
+    width: 250px;
+  }
+  
+  .contentDetail {
+    max-width: 90%;
+  }
+
+  form {
+    margin: 20px 50px 50px;
+  }
+
+  .contentDetail {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* ----- Medium devices ----- */
+@media only screen and (min-width: 768px) {
+  .navigationResponsive {
+    display: none;
+  }
+
+  #searchInput {
+    width: 280px;
+  }
+  
+  .contentDetail {
+    max-width: 80%;
+  }
+
+  form {
+    margin: 20px 100px 50px;
+  }
+}
+
+/* ----- Large devices ----- */
+@media only screen and (min-width: 992px) {
+  #exploreRestaurant {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  form {
+    margin: 20px 120px 50px;
+  }
+}
+
+/* ----- Extra large devices ----- */
+@media only screen and (min-width: 1200px) {
+  main {
+    min-width: 1000px;
+  }
+}
