@@ -1,3 +1,5 @@
+<img width="2543" height="679" alt="image" src="https://github.com/user-attachments/assets/d7673f3f-d878-4b43-8061-34eb926c579b" />
+
 # Cuisine Chaser
 
 Cuisine Chaser is a web-based platform designed to help users discover various culinary destinations across Indonesia. The website provides information about different restaurants and culinary spots, allowing users to explore Indonesian cuisine through an interactive and user-friendly interface.
